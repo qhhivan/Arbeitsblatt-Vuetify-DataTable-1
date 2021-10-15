@@ -1,15 +1,11 @@
 <template>
-  <hello-world />
+  <div></div>
 </template>
 
 <script>
-  import HelloWorld from '../components/HelloWorld'
-
-  export default {
-    name: 'Home',
-
-    components: {
-      HelloWorld,
-    },
-  }
+export default {
+  // Hole in Home.vue  im Lifecycle Hookcreateddie Daten vom Server und zeige sie zunächst so an, wie sie vom Server kommen.
+};
 </script>
+
+<style lang="scss" scoped></style>
